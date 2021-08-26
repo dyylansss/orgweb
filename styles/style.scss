@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+header {
+  width: auto;
+  background: #222629;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Kanit', sans-serif;
+}
+
+header > a {
+  text-decoration: none;
+  transition: color 600ms ease;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 30px;
+  justify-content:
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav > a {
+  color: #fafafa;
+  margin: 0 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.nav > a:hover{
+  color: #8c8f5a;
+}
+
+.section1 {
+  height: 77vh;
+  background: #fafafa;
+  font-size: 16px;
+  font-weight: 300;
+  background: url('../img/greeney.png') no-repeat center center;
+  padding-bottom: 150px;
+  background-attachment: fixed;
+  background-color: #3b3b3b;
+}
+
+
+.section1 > h1 {
+  font-size: 100px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.section1 > h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.section1 > h3 {
+  font-size: 50px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.section1 > h4 {
+  font-size: 25px;
+  color: #fafafa;
+
+}
+
+.section1 > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 > iframe {
+  align-items: center;
+}
+
+.section2 > h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #8c8f5a;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: #8c8f5a;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 10px;
+}
+
+.icons > h2 {
+  text-align: center;
+}
+
+div {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+div > input {
+ width: 300px;
+ height: 50px;
+ font-family: 'Kanit', sans-serif;
+ border: 0;
+ padding-left: 10px;
+}
+
+div > button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0px;
+  font-family: 'Kanit', sans-serif;
+  border: 0;
+}
+
+div > button:hover {
+  background: #8c8f5a;
+  transition: background 600ms ease;
+
+}
